@@ -10,7 +10,7 @@ sd(outlier_example)
 
 boxplot(outlier_example)
 
-#IQR:
+#The non-parametric estimate of the standard deviation:
 IQR(outlier_example)/1.349
 
 q3 <- qnorm(0.75)
